@@ -1,0 +1,42 @@
+@import "bootstrap.min.scss";
+@import "bootstrap-theme.min.scss";
+@import "normalize.scss";
+@import "vars.scss";
+
+
+
+body{
+	background: url('../img/back.jpg') top center;
+}
+
+.wrapper{
+	width:$wrapperWidth;
+	margin:0 auto;
+	position:relative;
+	min-height:643px;
+	#botella{
+		width:287px;
+		height: 457px;
+		position: absolute;
+  		bottom: 0px;
+  		right: 12%;
+  		z-index:999;
+	}//#botella
+
+	#agua{
+		position:absolute;
+		top:10px;
+ 		right: 9%;
+		z-index: 99;
+		img{
+			width: 0;
+		}	
+	}//
+
+	#logo{
+		position:absolute;
+		top: 154px;
+		right: 6%;
+		z-index: 9;
+	}
+}//wrapper
